@@ -1,0 +1,62 @@
+html, body, .container-fluid{
+  height: 100%;
+}
+
+.header{
+  background-image: url(rawpixel-com-550992.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 45%;
+}
+
+.my-name{
+  color: gray;
+  font-size: calc(18px + 2vw);
+  padding: 5vmin;
+}
+
+#navigation{
+  background-color: white;
+  border: none;
+}
+
+
+.the-nav-words{
+  position: absolute;
+  right: 0;
+  top: 10%;
+}
+
+ul li{
+  padding: 1px 0;
+  border-right: 1px solid darkgray;
+}
+
+li:last-child{
+  border-right: 0px;
+}
+
+.nav.navbar-nav li a:hover{
+  background-color: lightgray;
+  color: white !important;
+  text-shadow: 2px 2px darkgray;
+}
+
+.skills-list li{
+  list-style-type: none;
+  display: inline;
+  padding: 3px;
+  font-size: 16px;
+  color: red;
+  text-shadow: 1px 1px black;
+  transition-property: font-size color text-shadow;
+}
+
+.skills-list li:hover{
+  background-color: lightgray;
+  color: white;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+}
