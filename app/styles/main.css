@@ -1,32 +1,20 @@
 html, body, .container-fluid{
   height: 100%;
-}
-
-.header{
-  background-image: url(rawpixel-com-550992.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 45%;
-}
-
-.my-name{
-  color: gray;
-  font-size: calc(18px + 2vw);
-  padding: 5vmin;
+  background-color: black;
 }
 
 #navigation{
-  background-color: white;
+  background-color: black;
   border: none;
 }
-
 
 .the-nav-words{
   position: absolute;
   right: 0;
   top: 10%;
+}
+.nav.navbar-nav li a{
+  color: white;
 }
 
 ul li{
@@ -44,19 +32,37 @@ li:last-child{
   text-shadow: 2px 2px darkgray;
 }
 
+.header{
+  background-image: url(jeremy-bishop-394202.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 85%;
+}
+
+.my-name{
+  color: lightgray;
+  font-size: calc(20px + 2vw);
+  padding: 5vmin;
+}
+
+.desciption{
+  color: lightgray;
+  font-size: calc(15px + .5vw);
+}
+.skills{
+  margin-top: 10%;
+}
+
+.skills-header{
+  color: lightgray;
+  font-size: calc(10px + .5vw);
+}
+
 .skills-list li{
   list-style-type: none;
   display: inline;
   padding: 3px;
-  font-size: 16px;
-  color: red;
-  text-shadow: 1px 1px black;
-  transition-property: font-size color text-shadow;
-}
-
-.skills-list li:hover{
-  background-color: lightgray;
-  color: white;
-  font-size: 18px;
+  font-size: calc(13px + .5vw);
+  color: lightblue;
   text-shadow: 1px 1px black;
 }

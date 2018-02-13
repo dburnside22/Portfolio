@@ -1,3 +1,12 @@
+.about-header{
+  color: lightgray;
+  font-size: calc(20px + 2vw);
+}
+
+.hobbies-title{
+  color: lightgray;
+}
+
 .about-section .photo{
   width: auto;
   height: 30vw;
@@ -9,9 +18,11 @@ img {
 }
 
 .about-section h4{
-  font-size: calc(15px + .5vw);
+  font-size: calc(17px + .5vw);
+  color: lightgray;
 }
 
 .about-section p{
   font-size: calc(10px + .5vw);
+  color: lightgray;
 }
