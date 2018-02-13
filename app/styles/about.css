@@ -1,0 +1,17 @@
+.about-section .photo{
+  width: auto;
+  height: 30vw;
+}
+
+img {
+  height: inherit;
+  width: inherit;
+}
+
+.about-section h4{
+  font-size: calc(15px + .5vw);
+}
+
+.about-section p{
+  font-size: calc(10px + .5vw);
+}
