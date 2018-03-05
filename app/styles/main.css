@@ -22,47 +22,40 @@ ul li{
   border-right: 1px solid darkgray;
 }
 
+@media (max-width: 767px) {
+  .navbar-nav li {
+    border-right: 0px;
+  }
+}
+
 li:last-child{
   border-right: 0px;
 }
 
 .nav.navbar-nav li a:hover{
   background-color: lightgray;
-  color: white !important;
+  color: black !important;
   text-shadow: 2px 2px darkgray;
 }
 
 .header{
-  background-image: url(jeremy-bishop-394202.jpg);
+  background-image: url(photos/jeremy-bishop-394202.jpg);
   background-size: cover;
   background-position: center center;
   height: 85%;
 }
 
 .my-name{
-  color: lightgray;
-  font-size: calc(20px + 2vw);
-  padding: 5vmin;
-}
-
-.desciption{
-  color: lightgray;
-  font-size: calc(15px + .5vw);
-}
-.skills{
-  margin-top: 10%;
-}
-
-.skills-header{
-  color: lightgray;
-  font-size: calc(10px + .5vw);
-}
-
-.skills-list li{
-  list-style-type: none;
-  display: inline;
-  padding: 3px;
-  font-size: calc(13px + .5vw);
-  color: lightblue;
+  color: white;
   text-shadow: 1px 1px black;
+  font-size: calc(20px + 2vw);
+  padding-left: 5vmin;
+  padding-top: 5vmin;
+}
+
+.web-title{
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: calc(16px + 1vw);
+  padding-left: 5vmin;
 }

@@ -1,10 +1,10 @@
 .about-header{
-  color: lightgray;
+  color: white;
   font-size: calc(20px + 2vw);
 }
 
 .hobbies-title{
-  color: lightgray;
+  color: white;
 }
 
 .about-section .photo{
@@ -19,10 +19,34 @@ img {
 
 .about-section h4{
   font-size: calc(17px + .5vw);
-  color: lightgray;
+  color: white;
 }
 
 .about-section p{
   font-size: calc(10px + .5vw);
-  color: lightgray;
+  color: white;
+}
+
+.desciption{
+  color: white;
+  font-size: calc(16px + .5vw);
+  text-shadow: 1px 1px black;
+}
+.skills{
+  margin-top: 10%;
+  background-color: gray;
+  border-radius: 13px;
+}
+
+.skills-header{
+  color: white;
+  font-size: calc(16px + .5vw);
+}
+
+.skills-list li{
+  list-style-type: none;
+  display: inline;
+  padding: 3px;
+  font-size: calc(13px + .5vw);
+  color: white;
 }
